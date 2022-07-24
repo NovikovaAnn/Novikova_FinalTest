@@ -9,12 +9,12 @@ void PrintArray(string[] arrayA)
 }
 
 Console.WriteLine("Input array size: ");
-int n = Convert.ToInt32(Console.ReadLine()); // Считываем строку, переводим в число.
-string[] array1 = new string[n]; //Объявляем массив строк длиной n (которую ввёл пользователь)
+int n = Convert.ToInt32(Console.ReadLine());
+string[] array1 = new string[n];
 for (int i = 0; i < n; i++)
 {
     Console.Write("Input string No.{0}:\r\n    ", i + 1);
-    array1[i] = Console.ReadLine(); //Заполняем его
+    array1[i] = Console.ReadLine();
 }
 
 
@@ -32,8 +32,8 @@ void ThreeSymbols(string[] arrayA)
         }
     }
     PrintArray(arrayA);
-Console.Write(" --> ");
-PrintArray(arrayB);
+    Console.Write(" --> ");
+    PrintArray(arrayB);
 }
 
 ThreeSymbols(array1);
