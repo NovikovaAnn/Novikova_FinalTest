@@ -20,7 +20,7 @@ for (int i = 0; i < n; i++)
 
 void ThreeSymbols(string[] arrayA)
 {
-    string[] arrayB = new string[array1.Length];
+    string[] arrayB = new string[arrayA.Length];
     int count = 0;
     for (int i = 0; i < arrayA.Length; i++)
     {
